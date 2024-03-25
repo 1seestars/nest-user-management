@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { UsersModule } from './modules/users/users.module';
+import { UsersModule } from './modules/users/module';
 import { ConfigModule } from '@nestjs/config';
-import { User } from './modules/users/user.model';
+import { User } from './modules/users/model';
 import { configModuleOptions } from './configuration';
 
 @Module({
